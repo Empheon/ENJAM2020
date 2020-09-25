@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "193295333539",
+    "firebase_url": "https://ymob2-c8bc2.firebaseio.com",
+    "project_id": "ymob2-c8bc2",
+    "storage_bucket": "ymob2-c8bc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193295333539:android:4640d42259bd9ca1c12716",
+        "android_client_info": {
+          "package_name": "com.yorfstudio.ymob2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193295333539-6i3un3idklf18ga3pkg2ro5tcls9pihl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8WBKOWwjT-RyXcQA2gutXQPylpj_ydts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193295333539-6i3un3idklf18ga3pkg2ro5tcls9pihl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "193295333539-4a3c46kmg6m4bdqlrdpeglk7sao1qpb0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.yorfstudio.ymob2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

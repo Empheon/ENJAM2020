@@ -1,0 +1,16 @@
+#French translation file
+ui_home_touch_to_play;Touche pour jouer !
+
+ui_victory_page_name;Félicitation
+ui_victory_next_level;Prochain niveau
+
+ui_gameover_subtitle;Si proche du but !
+ui_gameover_retry;Recommencer
+
+ui_pause_page_name;Pause
+ui_pause_resume;Reprendre
+
+ui_settings_page_name;Paramètres
+ui_settings_music;Musique
+ui_settings_sound;Son
+ui_settings_ok;Ok

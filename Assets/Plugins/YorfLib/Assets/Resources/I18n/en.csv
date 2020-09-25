@@ -1,0 +1,16 @@
+#English translation file
+ui_home_touch_to_play;Touch to play!
+
+ui_victory_page_name;Congratulation
+ui_victory_next_level;Next level
+
+ui_gameover_subtitle;So close!
+ui_gameover_retry;Retry
+
+ui_pause_page_name;Pause
+ui_pause_resume;Resume
+
+ui_settings_page_name;Settings
+ui_settings_music;Music
+ui_settings_sound;Sound
+ui_settings_ok;Ok

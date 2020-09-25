@@ -1,0 +1,17 @@
+{
+    "name": "SpritePackerEditor",
+    "references": [
+        "GUID:110933a6aa7e9194f94cee1b093ed5b0"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

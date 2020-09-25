@@ -1,0 +1,17 @@
+{
+    "name": "YorfLib_Editor",
+    "references": [
+        "GUID:91e6dd35772ffd548b32bd3d8fc108f5"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
