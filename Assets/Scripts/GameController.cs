@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Principal;
 using UnityEngine;
 using YorfLib;
 using static YorfLib.SingletonHelper;
@@ -8,12 +9,21 @@ public class GameController : MonoBehaviour
 {
     public BeatCombination CurrentBeatCombination;
 
+    public Token token;
+
     void Start()
     {
         InitSingleton(this);
         MusicManager musicManager = Get<MusicManager>();
         musicManager.OnMusicBeat += NewBeat;
         musicManager.OnActivateCombination += ActivateCombination;
+
+        MasterPool.RegisterObject(token, false, 30);
+        int offset = 2;
+        for (int i = 0; i < 30; i++)
+        {
+            PoolTokenSetup(Vector2(10 + i * offset, 0), null);
+        }
     }
 
     void Update()
@@ -49,5 +59,15 @@ public class GameController : MonoBehaviour
     public void CombinationFinished(float points)
     {
         CurrentBeatCombination = null;
+    }
+
+    private void PoolTokenSetup(Vector2 pos, Sprite sprite)
+    {
+        MasterPool.SpawnObject(token, (Vector3)pos, Quaternion.identity);
+    }
+
+    public void PoolRetrieveToken()
+    {
+
     }
 }
