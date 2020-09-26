@@ -8,11 +8,14 @@ public class MusicManager : MonoBehaviour
 {
     public Action OnMusicBeat;
     public Action OnCustomCue;
-    public Action OnNewCombination;
+    public Action<BeatCombination, float> OnActivateCombination;
+
+    private MusicData m_musicData;
 
     void Start()
     {
         InitSingleton(this);
+        m_musicData = MusicDataContainer.Music1();
     }
 
     void Update()

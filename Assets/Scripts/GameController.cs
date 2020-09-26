@@ -10,7 +10,9 @@ public class GameController : MonoBehaviour
     void Start()
     {
         InitSingleton(this);
-        Get<MusicManager>().OnMusicBeat += BeatTransition;
+        MusicManager musicManager = Get<MusicManager>();
+        musicManager.OnMusicBeat += NewBeat;
+        musicManager.OnActivateCombination += ActivateCombination;
     }
 
     void Update()
@@ -18,13 +20,17 @@ public class GameController : MonoBehaviour
         
     }
 
-    private void BeatTransition()
+    private void NewBeat()
     {
-
+        if (CurrentBeatCombination != null)
+        {
+            CurrentBeatCombination.BeatAction();
+        }
     }
 
-    public void ValidateBeat()
+    private void ActivateCombination(BeatCombination beatCombination, float beatDuration)
     {
-
+        beatCombination.Init(beatDuration);
+        CurrentBeatCombination = beatCombination;
     }
 }

@@ -7,14 +7,13 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using static YorfLib.SingletonHelper;
 
-public enum ButtonTypes
+public enum ButtonType
 {
-    A, B, Y, X, L, R, U, D
+    A, B, Y, X, L, R, U, D, NONE
 }
 
 public class InputController : MonoBehaviour
 {
-    //private InputAction m_inputAction;
 
     private void Start()
     {
@@ -23,14 +22,24 @@ public class InputController : MonoBehaviour
 
     public void OnButtonPressed(InputAction.CallbackContext context)
     {
-        //Get<GameController>().CurrentBeatCombination
+        if (context.control.IsPressed())
+        {
+            Get<GameController>().CurrentBeatCombination.ReceiveInput(m_buttonTypesMap[context.control.name]);
+        }
 
 
         Debug.Log(context.control.name + " " + context.control.IsPressed());
     }
 
-    private static Dictionary<string, ButtonTypes> m_buttonTypesMap = new Dictionary<string, ButtonTypes>
+    private static Dictionary<string, ButtonType> m_buttonTypesMap = new Dictionary<string, ButtonType>
     {
-        {"buttonWest", ButtonTypes.B }
+        {"buttonWest", ButtonType.B},
+        {"buttonEast", ButtonType.X},
+        {"buttonNorth", ButtonType.Y},
+        {"buttonSouth", ButtonType.A},
+        {"buttonUp", ButtonType.U},
+        {"buttonDown", ButtonType.D},
+        {"buttonLeft", ButtonType.L},
+        {"buttonRight", ButtonType.R},
     };
 }
