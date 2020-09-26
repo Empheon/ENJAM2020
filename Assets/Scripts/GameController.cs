@@ -11,6 +11,8 @@ public class GameController : MonoBehaviour
 
     public Token token;
 
+    private Pool m_pool;
+
     void Start()
     {
         InitSingleton(this);
@@ -18,11 +20,13 @@ public class GameController : MonoBehaviour
         musicManager.OnMusicBeat += NewBeat;
         musicManager.OnActivateCombination += ActivateCombination;
 
-        MasterPool.RegisterObject(token, false, 30);
+
+        m_pool = new Pool(token.gameObject, 30);
+        m_pool.InitPool();
         int offset = 2;
         for (int i = 0; i < 30; i++)
         {
-            PoolTokenSetup(Vector2(10 + i * offset, 0), null);
+            PoolTokenSetup(new Vector2(10 + i * offset, 0), null);
         }
     }
 
@@ -63,11 +67,11 @@ public class GameController : MonoBehaviour
 
     private void PoolTokenSetup(Vector2 pos, Sprite sprite)
     {
-        MasterPool.SpawnObject(token, (Vector3)pos, Quaternion.identity);
+        m_pool.SpawnObject((Vector3)pos, Quaternion.identity);
     }
 
-    public void PoolRetrieveToken()
+    public void PoolReturnToken(Token tok)
     {
-
+        m_pool.ReturnObject(tok.gameObject);
     }
 }
