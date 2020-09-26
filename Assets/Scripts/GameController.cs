@@ -1,18 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static YorfLib.SingletonHelper;
 
-public class GameManager : MonoBehaviour
+public class GameController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public BeatCombination CurrentBeatCombination;
+
     void Start()
+    {
+        InitSingleton(this);
+        Get<MusicManager>().OnMusicBeat += BeatTransition;
+    }
+
+    void Update()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    private void BeatTransition()
     {
-        
+
+    }
+
+    public void ValidateBeat()
+    {
+
     }
 }

@@ -772,6 +772,6 @@ PlayerSettings:
   projectName: YorfLib 2019.3
   organizationId: valentin4311
   cloudEnabled: 0
-  enableNativePlatformBackendsForNewInputSystem: 0
-  disableOldInputManagerSupport: 0
+  enableNativePlatformBackendsForNewInputSystem: 1
+  disableOldInputManagerSupport: 1
   legacyClampBlendShapeWeights: 0

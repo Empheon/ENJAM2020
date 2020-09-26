@@ -1,17 +1,20 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static YorfLib.SingletonHelper;
 
 public class MusicManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public Action OnMusicBeat;
+    public Action OnCustomCue;
+    public Action OnNewCombination;
+
     void Start()
     {
         InitSingleton(this);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
