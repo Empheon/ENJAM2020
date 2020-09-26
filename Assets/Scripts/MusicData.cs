@@ -23,7 +23,7 @@ public class MusicData
 
 public class MusicDataContainer
 {
-    public static MusicData Music1()
+    public MusicData Music1()
     {
         var musicData = new MusicData();
 
@@ -31,10 +31,19 @@ public class MusicDataContainer
                     ButtonType.X,
                     ButtonType.B
         });
-        musicData.Inputs.Add(10, new List<ButtonType>{
+        for(int i = 0; i < 50; i++)
+        {
+            musicData.Inputs.Add(10 + i * 10, new List<ButtonType>{
                     ButtonType.A,
+                    ButtonType.B,
+                    ButtonType.B,
+                    ButtonType.B,
                     ButtonType.B
         });
+
+        }
+
+        
 
         musicData.ParseData();
         return musicData;

@@ -22,19 +22,16 @@ public class InputController : MonoBehaviour
 
     public void OnButtonPressed(InputAction.CallbackContext context)
     {
-        if (context.control.IsPressed())
+        if (context.control.IsPressed() && Get<GameController>().CurrentBeatCombination != null)
         {
             Get<GameController>().CurrentBeatCombination.ReceiveInput(m_buttonTypesMap[context.control.name]);
         }
-
-
-        Debug.Log(context.control.name + " " + context.control.IsPressed());
     }
 
     private static Dictionary<string, ButtonType> m_buttonTypesMap = new Dictionary<string, ButtonType>
     {
-        {"buttonWest", ButtonType.B},
-        {"buttonEast", ButtonType.X},
+        {"buttonWest", ButtonType.X},
+        {"buttonEast", ButtonType.B},
         {"buttonNorth", ButtonType.Y},
         {"buttonSouth", ButtonType.A},
         {"buttonUp", ButtonType.U},
