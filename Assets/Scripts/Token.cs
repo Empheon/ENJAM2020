@@ -93,11 +93,13 @@ public class Token : MonoBehaviour
 
     public void ValidAction()
     {
+        PressButtonAnim();
         Get<ActionButton>().SuccessAnim();
     }
 
     public void FailedAction()
     {
+        PressButtonAnim();
         Get<ActionButton>().FailAnim();
     }
 
@@ -109,6 +111,15 @@ public class Token : MonoBehaviour
     public void FailedPressAction()
     {
         Get<ActionButton>().FailAnim();
+    }
+
+    private void PressButtonAnim()
+    {
+        float scaleX = transform.localScale.x;
+        Sequence seq = DOTween.Sequence();
+        seq.Append(transform.DOScale(scaleX * 1.2f, 0.1f).SetEase(Ease.OutSine));
+        seq.Append(transform.DOScale(scaleX, 0.1f).SetEase(Ease.InSine));
+        seq.Play();
     }
 
     public void ActivateHeart()

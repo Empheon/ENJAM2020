@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static YorfLib.SingletonHelper;
 
 public class WwiseMusicManager : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class WwiseMusicManager : MonoBehaviour
 
     private void Awake()
     {
+        InitSingleton(this);
         if (instance)
             Destroy(gameObject);
         else
@@ -21,6 +23,12 @@ public class WwiseMusicManager : MonoBehaviour
     }
 
     private void Start()
+    {
+        //Play_MainMusic.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncAll, CallbackFunction);
+        //AkSoundEngine.SetState("STATES_MainMusic", "MainMenu");
+    }
+
+    public void StartMainMusic()
     {
         Play_MainMusic.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncAll, CallbackFunction);
         AkSoundEngine.SetState("STATES_MainMusic", "MainMenu");
