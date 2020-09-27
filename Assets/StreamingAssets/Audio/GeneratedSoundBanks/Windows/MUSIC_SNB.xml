@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\2020-09-27 ENJAM\RepoUnity\ENJAM2020\EnjamWwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\2020-09-27 ENJAM\RepoUnity\ENJAM2020\EnjamWwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\2020-09-27 ENJAM\RepoUnity\ENJAM2020\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\_Documents\Workspace\Unity Projects\ENJAM2020\EnjamWwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\_Documents\Workspace\Unity Projects\ENJAM2020\EnjamWwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\_Documents\Workspace\Unity Projects\ENJAM2020\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\ELE5f57934c3243e\Documents\ENJMIN\2020-09-27 ENJAM\RepoUnity\ENJAM2020\EnjamWwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\_Documents\Workspace\Unity Projects\ENJAM2020\EnjamWwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="2767260180" GUID="{1094781A-2257-4CBF-98DA-1873BBAA980B}" Language="SFX">

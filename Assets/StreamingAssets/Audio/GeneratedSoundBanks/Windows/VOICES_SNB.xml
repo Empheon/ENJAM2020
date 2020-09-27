@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\_Documents\Workspace\Unity Projects\ENJAM2020\EnjamWwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\_Documents\Workspace\Unity Projects\ENJAM2020\EnjamWwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\_Documents\Workspace\Unity Projects\ENJAM2020\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\_Documents\Workspace\Unity Projects\ENJAM2020\EnjamWwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="3104731246" GUID="{F6CDF476-CEF0-4F2F-A4BD-7FE25E4FBBC0}" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\VOICES_SNB</ObjectPath>
+			<ShortName>VOICES_SNB</ShortName>
+			<Path>VOICES_SNB.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

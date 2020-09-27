@@ -34,7 +34,7 @@ public class MusicManager : MonoBehaviour
         InitSingleton(this);
         m_audioSource = GetComponent<AudioSource>();
         m_audioSource.clip = beat_tmp;
-        m_musicData = new MusicDataContainer().Music1();
+        m_musicData = new MusicDataContainer().Music2();
         float beatDuration = bpm / 60f / 4f;
         counter = beatDuration + BpmOffset + Mathf.Epsilon;
 
@@ -118,6 +118,12 @@ public class MusicManager : MonoBehaviour
         }
         if (m_currentBeat == m_musicData.FinishBeat)
         {
+            string musicKey;
+            if (m_musicData.BeatUpdate.TryGetValue(m_currentBeat, out musicKey))
+            {
+                AkSoundEngine.SetState("STATES_MainMusic", musicKey);
+                m_acceptBeat = !musicKey.Contains("Transition");
+            }
             Get<GameController>().Win();
             return;
         }

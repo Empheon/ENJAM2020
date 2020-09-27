@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0f16885b538a2488e4d561aef70306, type: 3}
+  m_Name: 4AD3C050-48AB-4346-AC0B-5249D75DF09F
+  m_EditorClassIdentifier: 
+  objectName: EFFECTS_SNB
+  id: 2693342603
+  guid: 4AD3C050-48AB-4346-AC0B-5249D75DF09F

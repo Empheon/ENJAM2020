@@ -66,29 +66,29 @@ public class Token : MonoBehaviour
         Color c;
         if (Get<InputController>().isXbox)
         {
-            m_symbol.sprite = Get<GameSettings>().XboxButtonSprite[type];
-            if (Get<GameSettings>().XboxButtonColor.TryGetValue(type, out c))
+            m_symbol.sprite = Get<GameSettingsBis>().XboxButtonSprite[type];
+            if (Get<GameSettingsBis>().XboxButtonColor.TryGetValue(type, out c))
             {
                 c.a = 1;
                 m_symbol.color = c;
                 Circle.color = c;
             } else
             {
-                m_symbol.color = Get<GameSettings>().ArrowButtonsColor;
+                m_symbol.color = Get<GameSettingsBis>().ArrowButtonsColor;
                 Circle.enabled = false;
                 Shiny.enabled = false;
             }
         } else
         {
-            m_symbol.sprite = Get<GameSettings>().PlayStationButtonSprite[type];
-            if (Get<GameSettings>().XboxButtonColor.TryGetValue(type, out c))
+            m_symbol.sprite = Get<GameSettingsBis>().PlayStationButtonSprite[type];
+            if (Get<GameSettingsBis>().XboxButtonColor.TryGetValue(type, out c))
             {
                 c.a = 1;
                 m_symbol.color = c;
-                Circle.color = Get<GameSettings>().ArrowButtonsColor;
+                Circle.color = Get<GameSettingsBis>().ArrowButtonsColor;
             } else
             {
-                m_symbol.color = Get<GameSettings>().ArrowButtonsColor;
+                m_symbol.color = Get<GameSettingsBis>().ArrowButtonsColor;
                 Circle.enabled = false;
                 Shiny.enabled = false;
             }

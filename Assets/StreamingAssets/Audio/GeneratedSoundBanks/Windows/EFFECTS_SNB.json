@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\",
-   "SourceFilesRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\_Documents\\Workspace\\Unity Projects\\ENJAM2020\\EnjamWwiseProject\\",
+   "SourceFilesRoot": "D:\\_Documents\\Workspace\\Unity Projects\\ENJAM2020\\EnjamWwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\_Documents\\Workspace\\Unity Projects\\ENJAM2020\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "D:\\_Documents\\Workspace\\Unity Projects\\ENJAM2020\\EnjamWwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -26,8 +26,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_BUTTHOLE_EASTER_EGG",
       "GUID": "{9E2538F4-02D3-492D-8128-D298B3556596}",
       "DurationType": "OneShot",
-      "DurationMin": "26.278728",
-      "DurationMax": "26.278728",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "455192984",
@@ -43,8 +43,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_DOG_HAMMERED",
       "GUID": "{DC2F1004-721A-4928-86F3-F36F1121D502}",
       "DurationType": "OneShot",
-      "DurationMin": "1.884542",
-      "DurationMax": "1.884542",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "389978232",
@@ -60,8 +60,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_DOG_PETTED_001",
       "GUID": "{5A16C501-4396-4AE9-B53F-6BF39ACBFF57}",
       "DurationType": "OneShot",
-      "DurationMin": "1.690167",
-      "DurationMax": "1.690167",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "764568724",
@@ -77,8 +77,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_DOG_PETTED_002",
       "GUID": "{B101BFD0-2669-411C-8728-9ED02C940165}",
       "DurationType": "OneShot",
-      "DurationMin": "1.150062",
-      "DurationMax": "1.150062",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "887890501",
@@ -94,8 +94,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_GAME_OVER",
       "GUID": "{467DD193-5FB1-456A-977D-C1DFFFD33B05}",
       "DurationType": "OneShot",
-      "DurationMin": "3.426875",
-      "DurationMax": "3.426875",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "869381797",
@@ -111,8 +111,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_LANCEMENT_PARTIE",
       "GUID": "{F9F3402A-B08F-4DD5-97C1-9681EC0CAAAC}",
       "DurationType": "OneShot",
-      "DurationMin": "2.192375",
-      "DurationMax": "2.192375",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "796691703",
@@ -128,8 +128,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_PLUSIEURS_INPUTS_RATEES_001",
       "GUID": "{5B9E0E53-7013-4CD2-9CD4-764C872F20DF}",
       "DurationType": "OneShot",
-      "DurationMin": "1.066958",
-      "DurationMax": "1.066958",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "700204286",
@@ -145,8 +145,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_PLUSIEURS_INPUTS_RATEES_002",
       "GUID": "{4BA95C36-C45C-44D9-9925-DB02A8C5E4D7}",
       "DurationType": "OneShot",
-      "DurationMin": "1.370521",
-      "DurationMax": "1.370521",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "178869676",
@@ -162,8 +162,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_PLUSIEURS_INPUTS_RATEES_003",
       "GUID": "{DF6163AC-CC30-413B-812A-BDCE0A022EA0}",
       "DurationType": "OneShot",
-      "DurationMin": "0.921750",
-      "DurationMax": "0.921750",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "31141849",
@@ -179,8 +179,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_PLUSIEURS_INPUTS_RATEES_004",
       "GUID": "{A3D9B060-DF84-4B0B-9919-649E9FED755E}",
       "DurationType": "OneShot",
-      "DurationMin": "0.641917",
-      "DurationMax": "0.641917",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "91605315",
@@ -196,8 +196,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_PLUSIEURS_INPUTS_RATEES_005",
       "GUID": "{CD9268B9-07A1-48AA-9020-A9E371F745C3}",
       "DurationType": "OneShot",
-      "DurationMin": "0.671250",
-      "DurationMax": "0.671250",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "882925833",
@@ -213,8 +213,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_PLUSIEURS_INPUTS_REUSSIES_001",
       "GUID": "{3AA54B93-78B9-4C9C-9DCA-C92DD67E8F77}",
       "DurationType": "OneShot",
-      "DurationMin": "0.662396",
-      "DurationMax": "0.662396",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "682488802",
@@ -230,8 +230,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_PLUSIEURS_INPUTS_REUSSIES_002",
       "GUID": "{80B46DDF-CA06-47DF-8F42-19385C1340BD}",
       "DurationType": "OneShot",
-      "DurationMin": "1.178417",
-      "DurationMax": "1.178417",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "714023352",
@@ -247,8 +247,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_UNE_INPUT_RATEE_001",
       "GUID": "{194F3D2E-F138-45E8-8EF5-93DA5D7CCA36}",
       "DurationType": "OneShot",
-      "DurationMin": "0.523104",
-      "DurationMax": "0.523104",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "462509136",
@@ -264,8 +264,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_UNE_INPUT_RATEE_002",
       "GUID": "{40F7A409-8996-406A-9D3B-9670FA631793}",
       "DurationType": "OneShot",
-      "DurationMin": "0.669958",
-      "DurationMax": "0.669958",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "903019598",
@@ -281,8 +281,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_UNE_INPUT_RATEE_003",
       "GUID": "{29B09AC8-F352-4B07-8100-9174BFD9F2ED}",
       "DurationType": "OneShot",
-      "DurationMin": "0.338479",
-      "DurationMax": "0.338479",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "567015090",
@@ -298,8 +298,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_UNE_INPUT_RATEE_004",
       "GUID": "{EA2B4039-5DB8-4C6F-AA15-AB76E1E3A0F8}",
       "DurationType": "OneShot",
-      "DurationMin": "0.446250",
-      "DurationMax": "0.446250",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "663296802",
@@ -315,8 +315,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_UNE_INPUT_RATEE_005",
       "GUID": "{D0647DE2-5CFF-4080-825B-9368DAED9772}",
       "DurationType": "OneShot",
-      "DurationMin": "0.508729",
-      "DurationMax": "0.508729",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "283773860",
@@ -332,8 +332,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_UNE_INPUT_REUSSIE_001",
       "GUID": "{7D9917FF-5FA5-4264-B9E6-D5841B8B4F09}",
       "DurationType": "OneShot",
-      "DurationMin": "0.261167",
-      "DurationMax": "0.261167",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "147794105",
@@ -349,8 +349,8 @@
       "ObjectPath": "\\Events\\EFFECTS_EVENTS\\Play_UNE_INPUT_REUSSIE_002",
       "GUID": "{DEDE356E-FAC4-41D8-AC42-577699915222}",
       "DurationType": "OneShot",
-      "DurationMin": "0.381750",
-      "DurationMax": "0.381750",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000",
       "IncludedMemoryFiles": [
        {
         "Id": "349911498",

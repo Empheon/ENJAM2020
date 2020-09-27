@@ -1,0 +1,25 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\_Documents\\Workspace\\Unity Projects\\ENJAM2020\\EnjamWwiseProject\\",
+   "SourceFilesRoot": "D:\\_Documents\\Workspace\\Unity Projects\\ENJAM2020\\EnjamWwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\_Documents\\Workspace\\Unity Projects\\ENJAM2020\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\_Documents\\Workspace\\Unity Projects\\ENJAM2020\\EnjamWwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1153587219",
+    "GUID": "{47B56F17-57D5-41F0-9557-A4A593F69CE3}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\FOLEYS_SNB",
+    "ShortName": "FOLEYS_SNB",
+    "Path": "FOLEYS_SNB.bnk"
+   }
+  ]
+ }
+}

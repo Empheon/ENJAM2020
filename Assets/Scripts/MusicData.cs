@@ -22,6 +22,11 @@ public class MusicData : MonoBehaviour
 
         BeatDict = dict;
     }
+}
+public class MusicDataContainer
+{
+
+
 
     public MusicData Music1()
     {
@@ -57,7 +62,6 @@ public class MusicData : MonoBehaviour
         musicData.ParseData();
         return musicData;
     }
-
     public MusicData Music2()
     {
         var musicData = new MusicData();

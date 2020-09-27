@@ -41,7 +41,7 @@ public class BeatCombination
         {
             if (pair.m_first != ButtonType.NONE)
             {
-                Token t = Get<GameController>().InstantiateDelegate(Get<GameSettings>().TokenPrefab, new Vector3(CursorXPosition + offsetIndex + i * ButtonsOffset, -4.5f, 0), Quaternion.identity);
+                Token t = Get<GameController>().InstantiateDelegate(Get<GameSettingsBis>().TokenPrefab, new Vector3(CursorXPosition + offsetIndex + i * ButtonsOffset, -4.5f, 0), Quaternion.identity);
                 t.Init(pair.m_first, this);
                 m_tokens.Add(pair, t);
             }
@@ -63,7 +63,7 @@ public class BeatCombination
         {
             case ButtonType.NONE:
                 Get<ActionButton>().FailAnim();
-                UpdateScore(-1.5f);
+                UpdateScore(-2f);
                 return;
             case ButtonType.DOG1:
                 return;
@@ -100,7 +100,7 @@ public class BeatCombination
                 m_beats[m_currentBeatIndex].m_second = BeatState.FAILED;
                 GizmosHelper.AddSphere(Vector3.zero, 3, Color.red, m_beatDuration / 2);
                 //Debug.Log("Fail");
-                UpdateScore(-1.5f);
+                UpdateScore(-2f);
                 FinishCombination();
             }
         } else
@@ -109,7 +109,7 @@ public class BeatCombination
             m_tokens[m_beats[m_currentBeatIndex]].FailedPressAction();
             m_beats[m_currentBeatIndex].m_second = BeatState.FAILED;
             GizmosHelper.AddSphere(Vector3.zero, 3, Color.cyan, m_beatDuration / 2);
-            UpdateScore(-1.5f);
+            UpdateScore(-2f);
             FinishCombination();
         }
     }
