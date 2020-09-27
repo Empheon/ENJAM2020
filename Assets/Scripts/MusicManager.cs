@@ -14,6 +14,8 @@ public class MusicManager : MonoBehaviour
     private MusicData m_musicData;
     private int m_currentBeat = 0;
 
+    public float BeatDuration;
+
     public float BpmOffset;
     private float bpm = 120;
     private float counter = 0;
@@ -33,24 +35,24 @@ public class MusicManager : MonoBehaviour
 
     void FixedUpdate()
     {
-        float beatDuration = bpm / 60f / 4f;
-        Token.Speed = beatDuration * 4 * BeatCombination.ButtonsOffset;
+        BeatDuration = bpm / 60f / 4f;
+        Token.Speed = BeatDuration * 4 * BeatCombination.ButtonsOffset;
 
         counter += Time.deltaTime;
-        if (counter >= beatDuration + BpmOffset)
+        if (counter >= BeatDuration + BpmOffset)
         {
             //Token.Speed = (bpm / 60f) * BeatCombination.ButtonsOffset * Time.deltaTime;
             counter = 0 + BpmOffset;
             OnMusicBeat?.Invoke();
             m_audioSource.Play();
-            GizmosHelper.AddBox(Vector3.zero, Vector3.one * 54, Color.blue, beatDuration / 2f);
+            GizmosHelper.AddBox(Vector3.zero, Vector3.one * 54, Color.blue, BeatDuration / 2f);
 
             m_currentBeat++;
             BeatCombination bc;
             if (m_musicData.BeatDict.TryGetValue(m_currentBeat, out bc))
             {
-                OnActivateCombination?.Invoke(bc, beatDuration);
-                GizmosHelper.AddBox(Vector3.zero, Vector3.one * 5, Color.red, beatDuration / 2f);
+                OnActivateCombination?.Invoke(bc, BeatDuration);
+                GizmosHelper.AddBox(Vector3.zero, Vector3.one * 5, Color.red, BeatDuration / 2f);
             }
         }
     }
