@@ -19,26 +19,30 @@ public class MusicManager : MonoBehaviour
     private float counter = 0;
     
     private AudioSource m_audioSource;
+    public AudioClip beat_tmp;
 
     void Start()
     {
         InitSingleton(this);
-        //m_audioSource = GetComponent<AudioSource>();
-        //m_audioSource.clip = beat_tmp;
-        //m_audioSource.Play();
-        GetComponent<AudioSource>().Play();
+        m_audioSource = GetComponent<AudioSource>();
+        m_audioSource.clip = beat_tmp;
         m_musicData = new MusicDataContainer().Music1();
+        float beatDuration = bpm / 60f / 4f;
+        counter = beatDuration + BpmOffset + Mathf.Epsilon;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         float beatDuration = bpm / 60f / 4f;
+        Token.Speed = beatDuration * 4 * BeatCombination.ButtonsOffset;
 
         counter += Time.deltaTime;
-        if (counter > beatDuration + BpmOffset)
+        if (counter >= beatDuration + BpmOffset)
         {
+            //Token.Speed = (bpm / 60f) * BeatCombination.ButtonsOffset * Time.deltaTime;
             counter = 0 + BpmOffset;
             OnMusicBeat?.Invoke();
+            m_audioSource.Play();
             GizmosHelper.AddBox(Vector3.zero, Vector3.one * 54, Color.blue, beatDuration / 2f);
 
             m_currentBeat++;

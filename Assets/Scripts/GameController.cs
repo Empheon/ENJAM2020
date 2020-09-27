@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Security.Principal;
 using UnityEngine;
 using YorfLib;
 using static YorfLib.SingletonHelper;
@@ -14,6 +15,7 @@ public class GameController : MonoBehaviour
         MusicManager musicManager = Get<MusicManager>();
         musicManager.OnMusicBeat += NewBeat;
         musicManager.OnActivateCombination += ActivateCombination;
+        
     }
 
     void Update()
@@ -26,7 +28,7 @@ public class GameController : MonoBehaviour
                 timeSinceLastBeat > CurrentBeatCombination.m_beatDuration - (CurrentBeatCombination.m_inputAcceptanceDuration / 2f))
             {
 
-                GizmosHelper.AddText(new Vector3(0, 0, -5), CurrentBeatCombination.m_beats[CurrentBeatCombination.m_currentBeatIndex].m_first.ToString(), Color.red, Time.deltaTime * 2);
+                GizmosHelper.AddText(new Vector3(-4, -2.5f, 0), CurrentBeatCombination.m_beats[CurrentBeatCombination.m_currentBeatIndex].m_first.ToString(), Color.red, Time.deltaTime * 2);
             }
         }
     }
@@ -49,5 +51,11 @@ public class GameController : MonoBehaviour
     public void CombinationFinished(float points)
     {
         CurrentBeatCombination = null;
+    }
+
+    // oui c'est sale
+    public T InstantiateDelegate<T>(T go, Vector3 pos, Quaternion q) where T : Object
+    {
+        return Instantiate(go, pos, q);
     }
 }
