@@ -87,7 +87,7 @@ public class BeatCombination
                 {
                     GizmosHelper.AddSphere(Vector3.zero, 4, Color.yellow, m_beatDuration / 2);
                 }
-                Debug.Log("Valid");
+                //Debug.Log("Valid");
                 m_points += 1;
                 FinishCombination();
             } else
@@ -96,7 +96,7 @@ public class BeatCombination
                 m_tokens[m_beats[m_currentBeatIndex]].FailedAction();
                 m_beats[m_currentBeatIndex].m_second = BeatState.FAILED;
                 GizmosHelper.AddSphere(Vector3.zero, 3, Color.red, m_beatDuration / 2);
-                Debug.Log("Fail");
+                //Debug.Log("Fail");
                 m_points -= 1;
                 FinishCombination();
             }
@@ -120,7 +120,7 @@ public class BeatCombination
             {
                 OnMissedAction?.Invoke();
                 GizmosHelper.AddSphere(Vector3.zero, 3, Color.gray, m_beatDuration / 2);
-                Debug.Log("Missed");
+                //Debug.Log("Missed");
                 m_points -= 1;
                 FinishCombination();
                 m_tokens[m_beats[m_currentBeatIndex]].MissedAction();
