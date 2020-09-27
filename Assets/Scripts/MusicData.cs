@@ -12,8 +12,8 @@ public class MusicData : MonoBehaviour
     public void ParseData()
     {
         var dict = new Dictionary<int, BeatCombination>();
-        
-        foreach(var kv in Inputs)
+
+        foreach (var kv in Inputs)
         {
             dict.Add(kv.Key, new BeatCombination(kv.Value, kv.Key));
         }
@@ -29,13 +29,15 @@ public class MusicDataContainer
         var musicData = new MusicData();
 
         musicData.Inputs.Add(15, new List<ButtonType>{
+                    ButtonType.NONE,
                     ButtonType.X,
                     ButtonType.B,
                     ButtonType.DOG1
         });
-        for(int i = 0; i < 50; i++)
+        for (int i = 0; i < 50; i++)
         {
             musicData.Inputs.Add(20 + i * 10, new List<ButtonType>{
+                    ButtonType.NONE,
                     ButtonType.A,
                     ButtonType.B,
                     ButtonType.L,
@@ -46,7 +48,7 @@ public class MusicDataContainer
 
         }
 
-        
+
 
         musicData.ParseData();
         return musicData;

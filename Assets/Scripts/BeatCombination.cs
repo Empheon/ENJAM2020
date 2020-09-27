@@ -41,7 +41,7 @@ public class BeatCombination
         {
             if (pair.m_first != ButtonType.NONE)
             {
-                Token t = Get<GameController>().InstantiateDelegate(Get<GameSettings>().TokenPrefab, new Vector3(CursorXPosition + offsetIndex + i * ButtonsOffset, -4, 0), Quaternion.identity);
+                Token t = Get<GameController>().InstantiateDelegate(Get<GameSettings>().TokenPrefab, new Vector3(CursorXPosition + offsetIndex + i * ButtonsOffset, -4.5f, 0), Quaternion.identity);
                 t.Init(pair.m_first, this);
                 m_tokens.Add(pair, t);
             }
@@ -54,7 +54,7 @@ public class BeatCombination
         m_beatDuration = beatDuration;
 
         // We set a minimum duration to allow the player to react
-        m_inputAcceptanceDuration = Mathf.Max(beatDuration / 3f, 0.4f);
+        m_inputAcceptanceDuration = Mathf.Max(beatDuration * 0.8f, 0.4f);
     }
 
     public void ReceiveInput(ButtonType button)
@@ -62,6 +62,9 @@ public class BeatCombination
         switch(m_beats[m_currentBeatIndex].m_first)
         {
             case ButtonType.NONE:
+                Get<ActionButton>().FailAnim();
+                m_points -= 1;
+                return;
             case ButtonType.DOG1:
                 return;
         }

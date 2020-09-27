@@ -16,18 +16,19 @@ public class BackgroundManager : MonoBehaviour
     private Queue<GameObject> m_bgs;
     private Queue<GameObject> m_fgs;
 
+    public static float Speed;
 
     private void Awake()
     {
+        Speed = 0;
     }
 
     private void Update()
     {
-        Vector3 speed = Vector3.left * Get<MusicManager>().BeatDuration * Time.deltaTime * 4 * 10;
         if (bg != null)
         {
-            bg.transform.Translate(speed * 0.5f);
+            bg.transform.Translate(Vector3.left * Speed * Time.deltaTime * 10 * 0.5f);
         }
-        fg.transform.Translate(speed);
+        fg.transform.Translate(Vector3.left * Speed * Time.deltaTime * 10);
     }
 }

@@ -39,6 +39,11 @@ public class Token : MonoBehaviour
             return;
         }
 
+        if (Dog1.activeInHierarchy && Dog1.GetComponent<Animator>().speed < Get<MusicManager>().Speed)
+        {
+            Dog1.GetComponent<Animator>().speed = Get<MusicManager>().Speed;
+        }
+
         transform.Translate(Vector3.left * Speed * Time.deltaTime);
     }
 
@@ -52,10 +57,9 @@ public class Token : MonoBehaviour
                 Circle.enabled = false;
                 Shiny.enabled = false;
                 m_symbol.enabled = false;
-
-
-
+                
                 Dog1.SetActive(true);
+
                 return;
         }
 

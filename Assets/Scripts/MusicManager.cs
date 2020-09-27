@@ -15,6 +15,7 @@ public class MusicManager : MonoBehaviour
     private int m_currentBeat = 0;
 
     public float BeatDuration;
+    public float Speed;
 
     public float BpmOffset;
     private float bpm = 120;
@@ -84,7 +85,10 @@ public class MusicManager : MonoBehaviour
         BeatDuration = Time.time - m_prevBeatTime;
         m_prevBeatTime = Time.time;
 
-        Token.Speed = 1 / BeatDuration;
+        Speed = 1 / BeatDuration;
+        Token.Speed = Speed;
+        BackgroundManager.Speed = Speed;
+        Get<ActionButton>().CharacterAnimator.speed = Speed / 2;
         Debug.Log(Token.Speed);
 
         OnMusicBeat?.Invoke();
