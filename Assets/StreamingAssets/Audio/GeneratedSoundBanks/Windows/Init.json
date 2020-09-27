@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\Documents\\- ENJMIN\\- M2\\Projets\\ENJAM\\ProjetMartin\\ENJAM2020\\EnjamWwiseProject\\",
-   "SourceFilesRoot": "D:\\Documents\\- ENJMIN\\- M2\\Projets\\ENJAM\\ProjetMartin\\ENJAM2020\\EnjamWwiseProject\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Documents\\- ENJMIN\\- M2\\Projets\\ENJAM\\ProjetMartin\\ENJAM2020\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Documents\\- ENJMIN\\- M2\\Projets\\ENJAM\\ProjetMartin\\ENJAM2020\\EnjamWwiseProject\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {

@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FDF359E6-AECB-4A86-B093-485F11E3DC13}" SchemaVersion="97">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{FDF359E6-AECB-4A86-B093-485F11E3DC13}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FDF359E6-AECB-4A86-B093-485F11E3DC13}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="test" ID="{DA5E117C-42AB-4FD5-BA3D-7A911D3A5696}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_PLUSIEURS_INPUTS_RATEES_001" ID="{5B9E0E53-7013-4CD2-9CD4-764C872F20DF}" WorkUnitID="{8A82E2EB-FD34-46E2-A33A-1331FFEAE3A7}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_PLUSIEURS_INPUTS_RATEES_003" ID="{DF6163AC-CC30-413B-812A-BDCE0A022EA0}" WorkUnitID="{8A82E2EB-FD34-46E2-A33A-1331FFEAE3A7}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{6D64F8FA-07DF-4F83-8EF4-D4609E8FA6F2}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

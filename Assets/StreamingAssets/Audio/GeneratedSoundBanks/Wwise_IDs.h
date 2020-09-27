@@ -13,7 +13,27 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BUTTHOLE_EASTER_EGG = 1871070022U;
+        static const AkUniqueID PLAY_DOG_HAMMERED = 3850567630U;
+        static const AkUniqueID PLAY_DOG_PETTED_001 = 3274882933U;
+        static const AkUniqueID PLAY_DOG_PETTED_002 = 3274882934U;
+        static const AkUniqueID PLAY_GAME_OVER = 725000905U;
+        static const AkUniqueID PLAY_LANCEMENT_PARTIE = 3459919099U;
         static const AkUniqueID PLAY_MAINMUSIC = 1346240278U;
+        static const AkUniqueID PLAY_PLUSIEURS_INPUTS_RATEES_001 = 1365786089U;
+        static const AkUniqueID PLAY_PLUSIEURS_INPUTS_RATEES_002 = 1365786090U;
+        static const AkUniqueID PLAY_PLUSIEURS_INPUTS_RATEES_003 = 1365786091U;
+        static const AkUniqueID PLAY_PLUSIEURS_INPUTS_RATEES_004 = 1365786092U;
+        static const AkUniqueID PLAY_PLUSIEURS_INPUTS_RATEES_005 = 1365786093U;
+        static const AkUniqueID PLAY_PLUSIEURS_INPUTS_REUSSIES_001 = 378238028U;
+        static const AkUniqueID PLAY_PLUSIEURS_INPUTS_REUSSIES_002 = 378238031U;
+        static const AkUniqueID PLAY_UNE_INPUT_RATEE_001 = 1804409875U;
+        static const AkUniqueID PLAY_UNE_INPUT_RATEE_002 = 1804409872U;
+        static const AkUniqueID PLAY_UNE_INPUT_RATEE_003 = 1804409873U;
+        static const AkUniqueID PLAY_UNE_INPUT_RATEE_004 = 1804409878U;
+        static const AkUniqueID PLAY_UNE_INPUT_RATEE_005 = 1804409879U;
+        static const AkUniqueID PLAY_UNE_INPUT_REUSSIE_001 = 3489750788U;
+        static const AkUniqueID PLAY_UNE_INPUT_REUSSIE_002 = 3489750791U;
     } // namespace EVENTS
 
     namespace STATES
