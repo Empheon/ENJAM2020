@@ -487,6 +487,12 @@
         "Path": "SFX\\TRANSI 1-_2_DRUMS_110_BPM_073B4D0C.wem"
        },
        {
+        "Id": "747124770",
+        "Language": "SFX",
+        "ShortName": "ENDING MUSIC 110 BPM.wav",
+        "Path": "SFX\\ENDING MUSIC 110 BPM_073B4D0C.wem"
+       },
+       {
         "Id": "788133717",
         "Language": "SFX",
         "ShortName": "PART 1_110 BPM_SFX_110_BPM.wav",
@@ -527,12 +533,6 @@
         "Language": "SFX",
         "ShortName": "TRANSI 2-_3_DRUMS_120_BPM.wav",
         "Path": "SFX\\TRANSI 2-_3_DRUMS_120_BPM_073B4D0C.wem"
-       },
-       {
-        "Id": "980028231",
-        "Language": "SFX",
-        "ShortName": "MUSIC SHREK BONUS FIN.wav",
-        "Path": "SFX\\MUSIC SHREK BONUS FIN_073B4D0C.wem"
        },
        {
         "Id": "1009705841",
@@ -617,7 +617,7 @@
         "SwitchValue": "{218948BF-883E-4E32-84C7-F499ABA83EC9}",
         "Media": [
          {
-          "Id": "980028231"
+          "Id": "747124770"
          }
         ]
        }
@@ -666,6 +666,18 @@
         "Name": "Ending",
         "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\Ending",
         "GUID": "{218948BF-883E-4E32-84C7-F499ABA83EC9}"
+       },
+       {
+        "Id": "3290135791",
+        "Name": "Transition_110_to_120",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\Transition_110_to_120",
+        "GUID": "{7180F63B-74A2-47F8-AB06-6C5474A8F3AF}"
+       },
+       {
+        "Id": "4031559303",
+        "Name": "Transition_120_to_130",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\Transition_120_to_130",
+        "GUID": "{96CD9C76-5A6F-4270-BAAB-719784D9DAD0}"
        }
       ]
      }

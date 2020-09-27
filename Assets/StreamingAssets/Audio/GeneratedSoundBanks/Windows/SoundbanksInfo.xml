@@ -255,6 +255,10 @@
 							<ShortName>TRANSI 1-_2_DRUMS_110_BPM.wav</ShortName>
 							<Path>SFX\TRANSI 1-_2_DRUMS_110_BPM_073B4D0C.wem</Path>
 						</File>
+						<File Id="747124770" Language="SFX">
+							<ShortName>ENDING MUSIC 110 BPM.wav</ShortName>
+							<Path>SFX\ENDING MUSIC 110 BPM_073B4D0C.wem</Path>
+						</File>
 						<File Id="788133717" Language="SFX">
 							<ShortName>PART 1_110 BPM_SFX_110_BPM.wav</ShortName>
 							<Path>SFX\PART 1_110 BPM_SFX_110_BPM_073B4D0C.wem</Path>
@@ -282,10 +286,6 @@
 						<File Id="949757452" Language="SFX">
 							<ShortName>TRANSI 2-_3_DRUMS_120_BPM.wav</ShortName>
 							<Path>SFX\TRANSI 2-_3_DRUMS_120_BPM_073B4D0C.wem</Path>
-						</File>
-						<File Id="980028231" Language="SFX">
-							<ShortName>MUSIC SHREK BONUS FIN.wav</ShortName>
-							<Path>SFX\MUSIC SHREK BONUS FIN_073B4D0C.wem</Path>
 						</File>
 						<File Id="1009705841" Language="SFX">
 							<ShortName>PART 3_130 BPM_SYNTHS_130_BPM.wav</ShortName>
@@ -328,7 +328,7 @@
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{218948BF-883E-4E32-84C7-F499ABA83EC9}">
 							<Media>
-								<File Id="980028231"/>
+								<File Id="747124770"/>
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
@@ -343,6 +343,8 @@
 						<State Id="3507987323" Name="CoreGame_120BPM" ObjectPath="\States\STATES_MUSIC\STATES_MainMusic\CoreGame_120BPM" GUID="{89D0D757-7436-46CF-8711-A69D074D570F}"/>
 						<State Id="74257514" Name="CoreGame_130BPM" ObjectPath="\States\STATES_MUSIC\STATES_MainMusic\CoreGame_130BPM" GUID="{785D4B91-EDF0-409A-9D91-DE965750A270}"/>
 						<State Id="3966194980" Name="Ending" ObjectPath="\States\STATES_MUSIC\STATES_MainMusic\Ending" GUID="{218948BF-883E-4E32-84C7-F499ABA83EC9}"/>
+						<State Id="3290135791" Name="Transition_110_to_120" ObjectPath="\States\STATES_MUSIC\STATES_MainMusic\Transition_110_to_120" GUID="{7180F63B-74A2-47F8-AB06-6C5474A8F3AF}"/>
+						<State Id="4031559303" Name="Transition_120_to_130" ObjectPath="\States\STATES_MUSIC\STATES_MainMusic\Transition_120_to_130" GUID="{96CD9C76-5A6F-4270-BAAB-719784D9DAD0}"/>
 					</States>
 				</StateGroup>
 			</StateGroups>
