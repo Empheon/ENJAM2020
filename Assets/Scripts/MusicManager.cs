@@ -112,6 +112,15 @@ public class MusicManager : MonoBehaviour
 
     private void UpdateBeat()
     {
+        if (Get<GameController>().hasFinished)
+        {
+            return;
+        }
+        if (m_currentBeat == m_musicData.FinishBeat)
+        {
+            Get<GameController>().Win();
+            return;
+        }
         if (m_prevBeatTime < 0)
         {
             m_prevBeatTime = Time.time;

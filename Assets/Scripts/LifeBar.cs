@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization.Formatters;
 using UnityEngine;
+using static YorfLib.SingletonHelper;
 
 public class LifeBar : MonoBehaviour
 {
@@ -16,12 +17,14 @@ public class LifeBar : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        InitSingleton(this);
         //Life = LifeMax;
     }
 
     // Update is called once per frame
     void Update()
     {
+        Life = Mathf.Min(Life, LifeMax);
         if (Life >= LifeMax && !Fuller.activeInHierarchy)
         {
             Fuller.SetActive(true);
@@ -32,5 +35,9 @@ public class LifeBar : MonoBehaviour
         }
 
         Filling.fillAmount = Life / (LifeMax - LifeMin);
+        if (Filling.fillAmount < 0.1f)
+        {
+            Get<GameController>().Loose();
+        }
     }
 }
