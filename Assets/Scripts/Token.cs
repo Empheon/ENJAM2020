@@ -11,6 +11,12 @@ public class Token : MonoBehaviour
     public SpriteRenderer Circle;
     public SpriteRenderer Shiny;
 
+    public GameObject Heart;
+    public GameObject Dog1;
+    public GameObject Dog1Dead;
+
+    private ButtonType m_buttonType;
+
     private SpriteRenderer m_symbol;
 
     // Start is called before the first frame update
@@ -18,12 +24,16 @@ public class Token : MonoBehaviour
     {
         m_symbol = GetComponent<SpriteRenderer>();
         Speed = 0;
+
+        Dog1.SetActive(false);
+        Dog1Dead.SetActive(false);
+        Heart.SetActive(false);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x < -10)
+        if (transform.position.x < -20)
         {
             gameObject.SetActive(false);
             return;
@@ -34,6 +44,21 @@ public class Token : MonoBehaviour
 
     public void Init(ButtonType type, BeatCombination bc)
     {
+        m_buttonType = type;
+        
+        switch(type)
+        {
+            case ButtonType.DOG1:
+                Circle.enabled = false;
+                Shiny.enabled = false;
+                m_symbol.enabled = false;
+
+
+
+                Dog1.SetActive(true);
+                return;
+        }
+
         Color c;
         if (Get<InputController>().isXbox)
         {
@@ -42,9 +67,12 @@ public class Token : MonoBehaviour
             {
                 c.a = 1;
                 m_symbol.color = c;
+                Circle.color = c;
             } else
             {
                 m_symbol.color = Get<GameSettings>().ArrowButtonsColor;
+                Circle.enabled = false;
+                Shiny.enabled = false;
             }
         } else
         {
@@ -53,16 +81,14 @@ public class Token : MonoBehaviour
             {
                 c.a = 1;
                 m_symbol.color = c;
+                Circle.color = Get<GameSettings>().ArrowButtonsColor;
             } else
             {
                 m_symbol.color = Get<GameSettings>().ArrowButtonsColor;
+                Circle.enabled = false;
+                Shiny.enabled = false;
             }
         }
-
-        //bc.OnFailedAction += FailedAction;
-        //bc.OnMissedAction += MissedAction;
-        //bc.OnValidAction += ValidAction;
-        //bc.OnPressFailedAction += FailedPressAction;
     }
 
     public void ValidAction()
@@ -83,5 +109,21 @@ public class Token : MonoBehaviour
     public void FailedPressAction()
     {
         Get<ActionButton>().FailAnim();
+    }
+
+    public void ActivateHeart()
+    {
+        Heart.SetActive(true);
+    }
+
+    public void DeadDog()
+    {
+        switch(m_buttonType)
+        {
+            case ButtonType.DOG1:
+                Dog1.SetActive(false);
+                Dog1Dead.SetActive(true);
+                break;
+        }
     }
 }

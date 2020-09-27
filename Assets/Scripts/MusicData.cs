@@ -30,16 +30,18 @@ public class MusicDataContainer
 
         musicData.Inputs.Add(5, new List<ButtonType>{
                     ButtonType.X,
-                    ButtonType.B
+                    ButtonType.B,
+                    ButtonType.DOG1
         });
         for(int i = 0; i < 50; i++)
         {
             musicData.Inputs.Add(10 + i * 10, new List<ButtonType>{
                     ButtonType.A,
                     ButtonType.B,
+                    ButtonType.L,
+                    ButtonType.NONE,
                     ButtonType.B,
-                    ButtonType.B,
-                    ButtonType.B
+                    ButtonType.DOG1
         });
 
         }

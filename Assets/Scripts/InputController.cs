@@ -10,7 +10,8 @@ using static YorfLib.SingletonHelper;
 
 public enum ButtonType
 {
-    A, B, Y, X, L, R, U, D, NONE
+    A, B, Y, X, L, R, U, D, NONE,
+    DOG1
 }
 
 public class InputController : MonoBehaviour
@@ -45,9 +46,9 @@ public class InputController : MonoBehaviour
         {"buttonEast", ButtonType.B},
         {"buttonNorth", ButtonType.Y},
         {"buttonSouth", ButtonType.A},
-        {"buttonUp", ButtonType.U},
-        {"buttonDown", ButtonType.D},
-        {"buttonLeft", ButtonType.L},
-        {"buttonRight", ButtonType.R},
+        {"up", ButtonType.U},
+        {"down", ButtonType.D},
+        {"left", ButtonType.L},
+        {"right", ButtonType.R},
     };
 }
