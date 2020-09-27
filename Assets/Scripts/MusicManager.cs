@@ -39,7 +39,7 @@ public class MusicManager : MonoBehaviour
 
     private void OnEnable()
     {
-        Get<WwiseMusicManager>().StartMainMusic();
+        //Get<WwiseMusicManager>().StartMainMusic();
         WwiseMusicManager.OnMusicBeat += MusicBeat;
         WwiseMusicManager.OnMusicCue += MusicCue;
     }
