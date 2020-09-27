@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{375B0FD4-17CC-453F-814F-0FF506381EC6}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{375B0FD4-17CC-453F-814F-0FF506381EC6}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="EFFECTS_SNB" ID="{4AD3C050-48AB-4346-AC0B-5249D75DF09F}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="FOLEYS_SNB" ID="{47B56F17-57D5-41F0-9557-A4A593F69CE3}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="UI_SNB" ID="{5B3310F8-1A41-4F8C-81BD-681FEA4DA907}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="VOICES_SNB" ID="{F6CDF476-CEF0-4F2F-A4BD-7FE25E4FBBC0}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="AMB_SNB" ID="{C8D05236-542C-4C5A-834A-9743CD0F0BE3}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="MUSIC_SNB" ID="{1094781A-2257-4CBF-98DA-1873BBAA980B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="MUSIC_EVENTS" ID="{7B71445D-2CFC-44B0-9924-8F2973BD61D2}" WorkUnitID="{7B71445D-2CFC-44B0-9924-8F2973BD61D2}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

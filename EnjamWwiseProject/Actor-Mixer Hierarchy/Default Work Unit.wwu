@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8EF4A88C-90AA-4C0C-9D00-2389F2A18AE0}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{8EF4A88C-90AA-4C0C-9D00-2389F2A18AE0}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="BUTTHOLE_EASTER_EGG" ID="{94D967F3-6B1C-4874-963B-19400AFBC649}" ShortID="396692380">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="BUTTHOLE_EASTER_EGG" ID="{D0B14967-B9A2-4523-9B8A-16845D0F8724}">
+							<Language>SFX</Language>
+							<AudioFile>BUTTHOLE_EASTER_EGG.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="455192984"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="BUTTHOLE_EASTER_EGG" ID="{D0B14967-B9A2-4523-9B8A-16845D0F8724}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DOG_HAMMERED" ID="{0AC43CEF-90A0-4D84-9C06-C8F5644E0A1B}" ShortID="450454536">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DOG_HAMMERED" ID="{72104656-7CDD-4E6E-8CDF-F89ED60848B3}">
+							<Language>SFX</Language>
+							<AudioFile>DOG_HAMMERED.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="389978232"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DOG_HAMMERED" ID="{72104656-7CDD-4E6E-8CDF-F89ED60848B3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DOG_PETTED-001" ID="{03501708-F3ED-4795-A8C6-54B14AF1ECC7}" ShortID="859380970">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DOG_PETTED-001" ID="{AA10F441-4B09-4E8B-953A-3B61661C6757}">
+							<Language>SFX</Language>
+							<AudioFile>DOG_PETTED-001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="764568724"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DOG_PETTED-001" ID="{AA10F441-4B09-4E8B-953A-3B61661C6757}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DOG_PETTED-002" ID="{6BDB8946-6BF1-4613-927E-DFCD1F349A44}" ShortID="848406063">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="DOG_PETTED-002" ID="{A6147708-3A56-44F6-9AE8-B2F46CBD1F9C}">
+							<Language>SFX</Language>
+							<AudioFile>DOG_PETTED-002.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="887890501"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DOG_PETTED-002" ID="{A6147708-3A56-44F6-9AE8-B2F46CBD1F9C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="GAME_OVER" ID="{B21B2AE1-E97E-45D6-A3B5-578A054C0655}" ShortID="142811504">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="GAME_OVER" ID="{B2BAB8DB-3FD7-4582-AB40-E782EDBFE81B}">
+							<Language>SFX</Language>
+							<AudioFile>GAME_OVER.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="869381797"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="GAME_OVER" ID="{B2BAB8DB-3FD7-4582-AB40-E782EDBFE81B}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="LANCEMENT_PARTIE" ID="{E3EA73CD-5DAF-4C50-ACCF-491437151DF3}" ShortID="1002435289">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="LANCEMENT_PARTIE" ID="{0924FC9D-F3F1-4516-A0E8-6AD9038B67EE}">
+							<Language>SFX</Language>
+							<AudioFile>LANCEMENT_PARTIE.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="796691703"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="LANCEMENT_PARTIE" ID="{0924FC9D-F3F1-4516-A0E8-6AD9038B67EE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLUSIEURS_INPUTS_RATEES-001" ID="{E54C12C4-98C9-4AFD-97ED-31C78A407F32}" ShortID="311538484">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLUSIEURS_INPUTS_RATEES-001" ID="{128BDE96-C64E-4E07-9A8C-2188EA651905}">
+							<Language>SFX</Language>
+							<AudioFile>PLUSIEURS_INPUTS_RATEES-001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="700204286"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PLUSIEURS_INPUTS_RATEES-001" ID="{128BDE96-C64E-4E07-9A8C-2188EA651905}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLUSIEURS_INPUTS_RATEES-002" ID="{1EFF9F4A-AC2A-4110-A798-334DFC72ABFD}" ShortID="493678648">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLUSIEURS_INPUTS_RATEES-002" ID="{C74BDB3F-BFB6-4009-B4F0-FA1A65D25DEC}">
+							<Language>SFX</Language>
+							<AudioFile>PLUSIEURS_INPUTS_RATEES-002.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="178869676"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PLUSIEURS_INPUTS_RATEES-002" ID="{C74BDB3F-BFB6-4009-B4F0-FA1A65D25DEC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLUSIEURS_INPUTS_RATEES-003" ID="{534F41E6-2073-4C7C-ACB4-01E767AF19BF}" ShortID="621528413">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLUSIEURS_INPUTS_RATEES-003" ID="{8466E36C-E47B-495C-A1F4-6AC14957E5C9}">
+							<Language>SFX</Language>
+							<AudioFile>PLUSIEURS_INPUTS_RATEES-003.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="31141849"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PLUSIEURS_INPUTS_RATEES-003" ID="{8466E36C-E47B-495C-A1F4-6AC14957E5C9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLUSIEURS_INPUTS_RATEES-004" ID="{7739E755-00EC-4D4B-B22E-17E81612DB04}" ShortID="201651540">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLUSIEURS_INPUTS_RATEES-004" ID="{25C424A7-D8F4-425A-98EE-723A62A3D981}">
+							<Language>SFX</Language>
+							<AudioFile>PLUSIEURS_INPUTS_RATEES-004.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="91605315"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PLUSIEURS_INPUTS_RATEES-004" ID="{25C424A7-D8F4-425A-98EE-723A62A3D981}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLUSIEURS_INPUTS_RATEES-005" ID="{C9F92311-6A36-4BF1-A354-C54940E0CFAA}" ShortID="1058812037">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLUSIEURS_INPUTS_RATEES-005" ID="{C80D0D19-1038-4387-938C-6F2854E5DCFA}">
+							<Language>SFX</Language>
+							<AudioFile>PLUSIEURS_INPUTS_RATEES-005.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="882925833"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PLUSIEURS_INPUTS_RATEES-005" ID="{C80D0D19-1038-4387-938C-6F2854E5DCFA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLUSIEURS_INPUTS_REUSSIES-001" ID="{46BC06B4-FD75-41BF-9564-836300AE7572}" ShortID="822174162">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLUSIEURS_INPUTS_REUSSIES-001" ID="{D22E1CBD-B7A2-4C8C-8293-32DFBF6998B1}">
+							<Language>SFX</Language>
+							<AudioFile>PLUSIEURS_INPUTS_REUSSIES-001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="682488802"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PLUSIEURS_INPUTS_REUSSIES-001" ID="{D22E1CBD-B7A2-4C8C-8293-32DFBF6998B1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="PLUSIEURS_INPUTS_REUSSIES-002" ID="{BBDCB080-EED9-4816-A192-C4FAD3F449BC}" ShortID="1063673899">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PLUSIEURS_INPUTS_REUSSIES-002" ID="{540B805A-A1A1-4142-800E-A33A5A518DCF}">
+							<Language>SFX</Language>
+							<AudioFile>PLUSIEURS_INPUTS_REUSSIES-002.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="714023352"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="PLUSIEURS_INPUTS_REUSSIES-002" ID="{540B805A-A1A1-4142-800E-A33A5A518DCF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UNE_INPUT_RATEE-001" ID="{02C0D3EC-0C77-44BD-A0BD-D9EE1DC39D8E}" ShortID="834390259">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UNE_INPUT_RATEE-001" ID="{EB51AC00-D067-4B11-A8FC-9EA228852531}">
+							<Language>SFX</Language>
+							<AudioFile>UNE_INPUT_RATEE-001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="462509136"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UNE_INPUT_RATEE-001" ID="{EB51AC00-D067-4B11-A8FC-9EA228852531}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UNE_INPUT_RATEE-002" ID="{1649A9EE-C7E2-40E8-89A1-B1A6F8E27762}" ShortID="245460798">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UNE_INPUT_RATEE-002" ID="{B1362D31-B7B1-4B89-B22E-BA49D2208A45}">
+							<Language>SFX</Language>
+							<AudioFile>UNE_INPUT_RATEE-002.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="903019598"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UNE_INPUT_RATEE-002" ID="{B1362D31-B7B1-4B89-B22E-BA49D2208A45}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UNE_INPUT_RATEE-003" ID="{C81753C4-E0EC-4C6E-87B2-2A38728D9260}" ShortID="248449646">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UNE_INPUT_RATEE-003" ID="{45C35AFF-AF6A-41EC-B8E6-6A40F7A87F1D}">
+							<Language>SFX</Language>
+							<AudioFile>UNE_INPUT_RATEE-003.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="567015090"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UNE_INPUT_RATEE-003" ID="{45C35AFF-AF6A-41EC-B8E6-6A40F7A87F1D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UNE_INPUT_RATEE-004" ID="{86EB0B24-B41A-4748-A4B5-6933B343DD28}" ShortID="787745411">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UNE_INPUT_RATEE-004" ID="{AA229433-22CE-4316-8917-649E24FF52AA}">
+							<Language>SFX</Language>
+							<AudioFile>UNE_INPUT_RATEE-004.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="663296802"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UNE_INPUT_RATEE-004" ID="{AA229433-22CE-4316-8917-649E24FF52AA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UNE_INPUT_RATEE-005" ID="{C36E8057-782F-4ECA-82E1-5AC3E7E67913}" ShortID="260160465">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UNE_INPUT_RATEE-005" ID="{FEBB7956-5B82-4994-B6F6-CB85FF3A49EE}">
+							<Language>SFX</Language>
+							<AudioFile>UNE_INPUT_RATEE-005.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="283773860"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UNE_INPUT_RATEE-005" ID="{FEBB7956-5B82-4994-B6F6-CB85FF3A49EE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UNE_INPUT_REUSSIE-001" ID="{D4B4C023-4A35-4C5B-8DC7-67F3233F0483}" ShortID="61573847">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UNE_INPUT_REUSSIE-001" ID="{AC971039-0B84-4237-B55B-2877BB09DC89}">
+							<Language>SFX</Language>
+							<AudioFile>UNE_INPUT_REUSSIE-001.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="147794105"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UNE_INPUT_REUSSIE-001" ID="{AC971039-0B84-4237-B55B-2877BB09DC89}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="UNE_INPUT_REUSSIE-002" ID="{403A0BC9-C453-4834-837C-D490D5AD644D}" ShortID="965401017">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{CB4824EB-A2EE-4DED-AD0A-2C804FE186EC}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="UNE_INPUT_REUSSIE-002" ID="{26AC2DA8-6FCD-4EC7-A308-EA2AE1A2A7EB}">
+							<Language>SFX</Language>
+							<AudioFile>UNE_INPUT_REUSSIE-002.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="349911498"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="UNE_INPUT_REUSSIE-002" ID="{26AC2DA8-6FCD-4EC7-A308-EA2AE1A2A7EB}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
