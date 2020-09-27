@@ -1,0 +1,319 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\",
+   "SourceFilesRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\Assets\\StreamingAssets\\Audio\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\ELE5f57934c3243e\\Documents\\ENJMIN\\2020-09-27 ENJAM\\RepoUnity\\ENJAM2020\\EnjamWwiseProject\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2767260180",
+    "GUID": "{1094781A-2257-4CBF-98DA-1873BBAA980B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\MUSIC_SNB",
+    "ShortName": "MUSIC_SNB",
+    "Path": "MUSIC_SNB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1346240278",
+      "Name": "Play_MainMusic",
+      "ObjectPath": "\\Events\\MUSIC_EVENTS\\Play_MainMusic",
+      "GUID": "{91412D85-9605-4BDA-B79A-95C227F82704}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "7470295",
+        "Language": "SFX",
+        "ShortName": "INTRO_SYNTHS_110_BPM.wav",
+        "Path": "SFX\\INTRO_SYNTHS_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "40318657",
+        "Language": "SFX",
+        "ShortName": "TRANSI 2-_3_SFX_120_BPM.wav",
+        "Path": "SFX\\TRANSI 2-_3_SFX_120_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "72692572",
+        "Language": "SFX",
+        "ShortName": "MUSIC MENU V1 (loopable).wav",
+        "Path": "SFX\\MUSIC MENU V1 (loopable)_073B4D0C.wem"
+       },
+       {
+        "Id": "115487499",
+        "Language": "SFX",
+        "ShortName": "PART 3_130 BPM_REVERB_130_BPM.wav",
+        "Path": "SFX\\PART 3_130 BPM_REVERB_130_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "171899830",
+        "Language": "SFX",
+        "ShortName": "PART 2_120 BPM_SYNTHS_120_BPM.wav",
+        "Path": "SFX\\PART 2_120 BPM_SYNTHS_120_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "215837024",
+        "Language": "SFX",
+        "ShortName": "PART 2_120 BPM_DRUMS_120_BPM.wav",
+        "Path": "SFX\\PART 2_120 BPM_DRUMS_120_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "263691573",
+        "Language": "SFX",
+        "ShortName": "PART 1_110 BPM_REVERB_110_BPM.wav",
+        "Path": "SFX\\PART 1_110 BPM_REVERB_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "266373156",
+        "Language": "SFX",
+        "ShortName": "PART 2_120 BPM_SFX_120_BPM.wav",
+        "Path": "SFX\\PART 2_120 BPM_SFX_120_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "294080841",
+        "Language": "SFX",
+        "ShortName": "PART 3_130 BPM_DRUMS_130_BPM.wav",
+        "Path": "SFX\\PART 3_130 BPM_DRUMS_130_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "397518380",
+        "Language": "SFX",
+        "ShortName": "TRANSI 2-_3_REVERB_120_BPM.wav",
+        "Path": "SFX\\TRANSI 2-_3_REVERB_120_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "439985613",
+        "Language": "SFX",
+        "ShortName": "TRANSI 1-_2_SFX_110_BPM.wav",
+        "Path": "SFX\\TRANSI 1-_2_SFX_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "488727423",
+        "Language": "SFX",
+        "ShortName": "TRANSI 1-_2_REVERB_110_BPM.wav",
+        "Path": "SFX\\TRANSI 1-_2_REVERB_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "622805696",
+        "Language": "SFX",
+        "ShortName": "PART 2_120 BPM_REVERB_120_BPM.wav",
+        "Path": "SFX\\PART 2_120 BPM_REVERB_120_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "683343922",
+        "Language": "SFX",
+        "ShortName": "INTRO_DRUMS_110_BPM.wav",
+        "Path": "SFX\\INTRO_DRUMS_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "689115816",
+        "Language": "SFX",
+        "ShortName": "TRANSI 1-_2_DRUMS_110_BPM.wav",
+        "Path": "SFX\\TRANSI 1-_2_DRUMS_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "747124770",
+        "Language": "SFX",
+        "ShortName": "ENDING MUSIC 110 BPM.wav",
+        "Path": "SFX\\ENDING MUSIC 110 BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "788133717",
+        "Language": "SFX",
+        "ShortName": "PART 1_110 BPM_SFX_110_BPM.wav",
+        "Path": "SFX\\PART 1_110 BPM_SFX_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "792570784",
+        "Language": "SFX",
+        "ShortName": "INTRO_SFX_110_BPM.wav",
+        "Path": "SFX\\INTRO_SFX_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "866071380",
+        "Language": "SFX",
+        "ShortName": "PART 1_110 BPM_DRUMS_110_BPM.wav",
+        "Path": "SFX\\PART 1_110 BPM_DRUMS_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "870977321",
+        "Language": "SFX",
+        "ShortName": "INTRO_REVERB_110_BPM.wav",
+        "Path": "SFX\\INTRO_REVERB_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "898462479",
+        "Language": "SFX",
+        "ShortName": "PART 3_130 BPM_SFX_130_BPM.wav",
+        "Path": "SFX\\PART 3_130 BPM_SFX_130_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "917046528",
+        "Language": "SFX",
+        "ShortName": "PART 1_110 BPM_SYNTHS_110_BPM.wav",
+        "Path": "SFX\\PART 1_110 BPM_SYNTHS_110_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "949757452",
+        "Language": "SFX",
+        "ShortName": "TRANSI 2-_3_DRUMS_120_BPM.wav",
+        "Path": "SFX\\TRANSI 2-_3_DRUMS_120_BPM_073B4D0C.wem"
+       },
+       {
+        "Id": "1009705841",
+        "Language": "SFX",
+        "ShortName": "PART 3_130 BPM_SYNTHS_130_BPM.wav",
+        "Path": "SFX\\PART 3_130 BPM_SYNTHS_130_BPM_073B4D0C.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{75ED0A8B-1165-477B-A3A6-BE05FCCC7673}",
+        "Media": [
+         {
+          "Id": "866071380"
+         },
+         {
+          "Id": "263691573"
+         },
+         {
+          "Id": "788133717"
+         },
+         {
+          "Id": "917046528"
+         },
+         {
+          "Id": "683343922"
+         },
+         {
+          "Id": "870977321"
+         },
+         {
+          "Id": "792570784"
+         },
+         {
+          "Id": "7470295"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{89D0D757-7436-46CF-8711-A69D074D570F}",
+        "Media": [
+         {
+          "Id": "215837024"
+         },
+         {
+          "Id": "622805696"
+         },
+         {
+          "Id": "266373156"
+         },
+         {
+          "Id": "171899830"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{785D4B91-EDF0-409A-9D91-DE965750A270}",
+        "Media": [
+         {
+          "Id": "294080841"
+         },
+         {
+          "Id": "115487499"
+         },
+         {
+          "Id": "898462479"
+         },
+         {
+          "Id": "1009705841"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{17BEB100-47DE-4DC9-841C-B25B5F775277}",
+        "Media": [
+         {
+          "Id": "72692572"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{218948BF-883E-4E32-84C7-F499ABA83EC9}",
+        "Media": [
+         {
+          "Id": "747124770"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3351207106",
+      "Name": "STATES_MainMusic",
+      "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic",
+      "GUID": "{DD1CF7B8-CF2D-4931-B7A5-2316E7AE23F9}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\None",
+        "GUID": "{6D64F8FA-07DF-4F83-8EF4-D4609E8FA6F2}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\MainMenu",
+        "GUID": "{17BEB100-47DE-4DC9-841C-B25B5F775277}"
+       },
+       {
+        "Id": "181369000",
+        "Name": "CoreGame_110BPM",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\CoreGame_110BPM",
+        "GUID": "{75ED0A8B-1165-477B-A3A6-BE05FCCC7673}"
+       },
+       {
+        "Id": "3507987323",
+        "Name": "CoreGame_120BPM",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\CoreGame_120BPM",
+        "GUID": "{89D0D757-7436-46CF-8711-A69D074D570F}"
+       },
+       {
+        "Id": "74257514",
+        "Name": "CoreGame_130BPM",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\CoreGame_130BPM",
+        "GUID": "{785D4B91-EDF0-409A-9D91-DE965750A270}"
+       },
+       {
+        "Id": "3966194980",
+        "Name": "Ending",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\Ending",
+        "GUID": "{218948BF-883E-4E32-84C7-F499ABA83EC9}"
+       },
+       {
+        "Id": "3290135791",
+        "Name": "Transition_110_to_120",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\Transition_110_to_120",
+        "GUID": "{7180F63B-74A2-47F8-AB06-6C5474A8F3AF}"
+       },
+       {
+        "Id": "4031559303",
+        "Name": "Transition_120_to_130",
+        "ObjectPath": "\\States\\STATES_MUSIC\\STATES_MainMusic\\Transition_120_to_130",
+        "GUID": "{96CD9C76-5A6F-4270-BAAB-719784D9DAD0}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
