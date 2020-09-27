@@ -3,9 +3,10 @@
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Triggers\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Switches\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\States\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\States\STATES_MUSIC.wwu" DateLow="1601202795" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\States\Default Work Unit.wwu" DateLow="1601155067" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1601202941" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Queries\Factory Queries.wwu" DateLow="1600778911" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Queries\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1600778911" DateHigh="0"/>
@@ -13,11 +14,17 @@
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Modulators\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1601203153" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Events\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\EnjamWwiseProject.wproj" DateLow="1601143593" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\EnjamWwiseProject.Pamplemousse.wsettings" DateLow="1601142239" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Events\VOICES_EVENTS.wwu" DateLow="1601202941" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Events\UI_EVENTS.wwu" DateLow="1601202915" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Events\MUSIC_EVENTS.wwu" DateLow="1601157557" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Events\FOLEYS_EVENTS.wwu" DateLow="1601202922" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Events\EFFECTS_EVENTS.wwu" DateLow="1601157573" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Events\Default Work Unit.wwu" DateLow="1601157557" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Events\AMB_EVENTS.wwu" DateLow="1601202928" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\EnjamWwiseProject.wproj" DateLow="1601202997" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\EnjamWwiseProject.Pamplemousse.wsettings" DateLow="1601203376" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Effects\Factory Effects.wwu" DateLow="1600778911" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Effects\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
@@ -26,5 +33,10 @@
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
 	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1601142111" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Actor-Mixer Hierarchy\VOICES.wwu" DateLow="1601201419" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Actor-Mixer Hierarchy\UI.wwu" DateLow="1601201407" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Actor-Mixer Hierarchy\FOLEYS.wwu" DateLow="1601201410" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Actor-Mixer Hierarchy\EFFECTS.wwu" DateLow="1601201395" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1601201503" DateHigh="0"/>
+	<ValidationCacheItem File="D:\Documents\- ENJMIN\- M2\Projets\ENJAM\ProjetMartin\ENJAM2020\EnjamWwiseProject\Actor-Mixer Hierarchy\AMBIANCES.wwu" DateLow="1601201401" DateHigh="0"/>
 </ValidationCache>
