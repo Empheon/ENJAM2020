@@ -21,7 +21,7 @@ public class CombinationEndScreen : MonoBehaviour
     {
         Sequence seq = DOTween.Sequence();
         seq.Append(transform.DOScale(1, 0.1f).SetEase(Ease.OutElastic));
-        seq.AppendInterval(Get<MusicManager>().BeatDuration * 2 - 0.2f);
+        seq.AppendInterval(Get<MusicManager>().BeatDuration * 4 - 0.2f);
         seq.Append(transform.DOScale(0, 0.1f).SetEase(Ease.OutElastic));
     }
 

@@ -28,14 +28,14 @@ public class MusicDataContainer
     {
         var musicData = new MusicData();
 
-        musicData.Inputs.Add(5, new List<ButtonType>{
+        musicData.Inputs.Add(15, new List<ButtonType>{
                     ButtonType.X,
                     ButtonType.B,
                     ButtonType.DOG1
         });
         for(int i = 0; i < 50; i++)
         {
-            musicData.Inputs.Add(10 + i * 10, new List<ButtonType>{
+            musicData.Inputs.Add(20 + i * 10, new List<ButtonType>{
                     ButtonType.A,
                     ButtonType.B,
                     ButtonType.L,
