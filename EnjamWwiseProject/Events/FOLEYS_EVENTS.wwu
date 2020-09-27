@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BF0672AE-D608-497C-A959-13CB90978991}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="FOLEYS_EVENTS" ID="{BF0672AE-D608-497C-A959-13CB90978991}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>

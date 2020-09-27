@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F0BA3CE5-2BDE-4ECC-8118-7A82D72EEFDB}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="AMB_EVENTS" ID="{F0BA3CE5-2BDE-4ECC-8118-7A82D72EEFDB}" PersistMode="Standalone"/>
+	</Events>
+</WwiseDocument>
