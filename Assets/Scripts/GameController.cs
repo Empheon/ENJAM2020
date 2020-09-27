@@ -9,13 +9,19 @@ public class GameController : MonoBehaviour
 {
     public BeatCombination CurrentBeatCombination;
 
+    public CombinationEndScreen SuccessScreen;
+    public CombinationEndScreen FailScreen;
+
+
     void Start()
     {
         InitSingleton(this);
         MusicManager musicManager = Get<MusicManager>();
         musicManager.OnMusicBeat += NewBeat;
         musicManager.OnActivateCombination += ActivateCombination;
-        
+
+        SuccessScreen = Instantiate(SuccessScreen);
+        FailScreen = Instantiate(FailScreen);
     }
 
     void Update()
@@ -51,6 +57,13 @@ public class GameController : MonoBehaviour
     public void CombinationFinished(float points)
     {
         CurrentBeatCombination = null;
+        if (points > 0)
+        {
+            SuccessScreen.PlayAnim();
+        } else
+        {
+            FailScreen.PlayAnim();
+        }
     }
 
     // oui c'est sale
