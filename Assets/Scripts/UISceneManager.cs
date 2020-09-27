@@ -6,15 +6,15 @@ using UnityEngine.SceneManagement;
 
 public class UISceneManager : MonoBehaviour
 {
-    public void StartGame()
+    public void LoadScene(string sceneName)
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("MainScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 
     public void QuitGame()
     {
         Application.Quit();
-        UnityEngine.Debug.Log("Quitted application");
+        //UnityEngine.Debug.Log("Quitted application");
     }
     
 }
