@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.XInput;
 using static YorfLib.SingletonHelper;
 
 public enum ButtonType
@@ -14,14 +15,24 @@ public enum ButtonType
 
 public class InputController : MonoBehaviour
 {
+    public bool isXbox;
 
     private void Start()
     {
-        //m_inputAction = GetComponent<InputAction>();
+        InitSingleton(this);
+        isXbox = InputSystem.devices.Any((x) => x.device is XInputController);
+        //if (InputDevice. is XInputController)
+        //    /* Xbox gamepad */
+        //    ;
+        //else if (gamepad is DualShockGamepad)
+        //    /* PlayStation gamepad */
+        //    ;
     }
 
     public void OnButtonPressed(InputAction.CallbackContext context)
     {
+        //isXbox = context.control.device is XInputController;
+
         if (context.control.IsPressed() && Get<GameController>().CurrentBeatCombination != null)
         {
             Get<GameController>().CurrentBeatCombination.ReceiveInput(m_buttonTypesMap[context.control.name]);

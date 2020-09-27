@@ -13,13 +13,41 @@ MonoBehaviour:
   m_Name: GameSettings
   m_EditorClassIdentifier: 
   XboxButtonSprite:
-    m_keys: 00000000010000000200000003000000
+    m_keys: 0000000001000000020000000300000004000000050000000600000007000000
     m_values:
     - {fileID: 21300000, guid: 6c5c7a4066bbd4b4f84f2c67fc0ff859, type: 3}
     - {fileID: 21300000, guid: 441464cdc7885244ca8d7bc3bc39daea, type: 3}
     - {fileID: 21300000, guid: 3168689b2f142ac47b29393380b3739e, type: 3}
     - {fileID: 21300000, guid: deb9990d0be14234b8f8c60d805d283d, type: 3}
+    - {fileID: 21300000, guid: 8f09b6ff849030d4fa6f23af59dbf907, type: 3}
+    - {fileID: 21300000, guid: bd86cdd8d9052c44c82d3e2d54a4952a, type: 3}
+    - {fileID: 21300000, guid: 7a3b8fac0a7b76346b8d6528e3e1dace, type: 3}
+    - {fileID: 21300000, guid: aa77d0e51b388ed49a242a0ec54f40e6, type: 3}
   PlayStationButtonSprite:
-    m_keys: 00000000
+    m_keys: 0000000001000000020000000300000004000000050000000600000007000000
     m_values:
-    - {fileID: 0}
+    - {fileID: 21300000, guid: 6cf797de2b1ac1e49aeb7c4084a51448, type: 3}
+    - {fileID: 21300000, guid: a0de19f349f8f4b43a1ba4c43844b3fc, type: 3}
+    - {fileID: 21300000, guid: 3bb44c51480827544b471b3ffc7a9eb4, type: 3}
+    - {fileID: 21300000, guid: ca748a1cc5b0584489ec3cde8efd0071, type: 3}
+    - {fileID: 21300000, guid: 8f09b6ff849030d4fa6f23af59dbf907, type: 3}
+    - {fileID: 21300000, guid: bd86cdd8d9052c44c82d3e2d54a4952a, type: 3}
+    - {fileID: 21300000, guid: 7a3b8fac0a7b76346b8d6528e3e1dace, type: 3}
+    - {fileID: 21300000, guid: aa77d0e51b388ed49a242a0ec54f40e6, type: 3}
+  XboxButtonColor:
+    m_keys: 00000000010000000200000003000000
+    m_values:
+    - {r: 0.23529413, g: 0.8588236, b: 0.30588236, a: 0}
+    - {r: 0.81568635, g: 0.25882354, b: 0.25882354, a: 0}
+    - {r: 0.92549026, g: 0.8588236, b: 0.20000002, a: 0}
+    - {r: 0.2509804, g: 0.8000001, b: 0.81568635, a: 0}
+  PlayStationButtonColor:
+    m_keys: 00000000010000000200000003000000
+    m_values:
+    - {r: 0.5882353, g: 0.6431373, b: 0.8196079, a: 0}
+    - {r: 0.93725497, g: 0.34901962, b: 0.21960786, a: 0}
+    - {r: 0.21960786, g: 0.7254902, b: 0.6039216, a: 0}
+    - {r: 0.8196079, g: 0.56078434, b: 0.7490196, a: 0}
+  ArrowButtonsColor: {r: 0.34901962, g: 0.34901962, b: 0.34901962, a: 1}
+  TokenPrefab: {fileID: 8947487322493800989, guid: 7e4433b2ee854444bbc2b910ff3f9cbf,
+    type: 3}

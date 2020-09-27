@@ -6,6 +6,9 @@ using static YorfLib.SingletonHelper;
 
 public class BeatCombination
 {
+    public static float CursorXPosition = -4;
+    public static float ButtonsOffset = 1;
+
     public Action OnValidAction;
     public Action OnFailedAction;
     public Action OnPressFailedAction;
@@ -19,12 +22,25 @@ public class BeatCombination
 
     public int m_currentBeatIndex;
 
-    public BeatCombination(List<ButtonType> inputs)
+    public BeatCombination(List<ButtonType> inputs, int offsetIndex)
     {
         m_beats = new List<Pair<ButtonType, BeatState>>();
         foreach (ButtonType bt in inputs)
         {
             m_beats.Add(new Pair<ButtonType, BeatState>(bt, BeatState.WAITING));
+        }
+
+        GizmosHelper.AddBox(new Vector3(CursorXPosition, -3, 0), Vector3.one * 0.5f, Color.red, 50);
+        // Init tokens
+        int i = 0;
+        foreach (var pair in m_beats)
+        {
+            if (pair.m_first != ButtonType.NONE)
+            {
+                Token t = Get<GameController>().InstantiateDelegate<Token>(Get<GameSettings>().TokenPrefab, new Vector3(CursorXPosition + offsetIndex + i * ButtonsOffset, -3, 0), Quaternion.identity);
+                t.Init(pair.m_first, this);
+            }
+            i++;
         }
     }
 

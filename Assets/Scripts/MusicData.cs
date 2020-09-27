@@ -1,7 +1,8 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 using YorfLib;
 
-public class MusicData
+public class MusicData : MonoBehaviour
 {
     public Dictionary<int, List<ButtonType>> Inputs = new Dictionary<int, List<ButtonType>>();
     public Dictionary<int, float> BeatUpdate = new Dictionary<int, float>();
@@ -11,10 +12,10 @@ public class MusicData
     public void ParseData()
     {
         var dict = new Dictionary<int, BeatCombination>();
-
+        
         foreach(var kv in Inputs)
         {
-            dict.Add(kv.Key, new BeatCombination(kv.Value));
+            dict.Add(kv.Key, new BeatCombination(kv.Value, kv.Key));
         }
 
         BeatDict = dict;
