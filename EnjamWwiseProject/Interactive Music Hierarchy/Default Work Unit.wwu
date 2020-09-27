@@ -981,23 +981,23 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="MUSIC SHREK BONUS FIN" ID="{35D3159F-131C-4DA8-9C15-DE358CF77447}" ShortID="310587701">
+										<MusicTrack Name="ENDING MUSIC 110 BPM" ID="{112C1E09-2A15-418F-9FE0-1B6EFF7F0715}" ShortID="1068561851">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C864C3D8-AE06-4BF3-83A7-3533ED7C8B7A}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="MUSIC SHREK BONUS FIN" ID="{C87E788F-26B6-4691-955A-72622C6D9169}">
+												<AudioFileSource Name="ENDING MUSIC 110 BPM" ID="{2DB1E0B2-6AFB-4FCE-A493-694CBCB0F0B1}">
 													<Language>SFX</Language>
-													<AudioFile>MUSIC SHREK BONUS FIN.wav</AudioFile>
+													<AudioFile>ENDING MUSIC 110 BPM.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="980028231"/>
+														<MediaID ID="747124770"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{CBB80D7C-601E-49F3-85D4-6F996E32ECE5}">
+												<MusicTransition Name="Root" ID="{97A4A619-76CC-44F6-A94C-C292C9F5C7D7}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -1005,76 +1005,15 @@
 												</MusicTransition>
 											</TransitionList>
 											<SequenceList>
-												<MusicTrackSequence Name="" ID="{45258DE8-E670-4C7F-BBE9-FFB5EE9D2180}">
+												<MusicTrackSequence Name="" ID="{E1BAF808-A712-4126-A821-187764EF1FA7}">
 													<ClipList>
-														<MusicClip Name="MUSIC SHREK BONUS FIN" ID="{8A80B82B-C9F4-49F5-8830-B10920FEB60B}">
+														<MusicClip Name="ENDING MUSIC 110 BPM" ID="{867680F9-74DE-4016-87BF-F59EFE31F13C}">
 															<PropertyList>
-																<Property Name="BeginTrimOffset" Type="Real64" Value="1090.90909090909"/>
-																<Property Name="EndTrimOffset" Type="Real64" Value="24123.7083333333"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="21608.4583333333"/>
 																<Property Name="FadeInMode" Type="int16" Value="0"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="-1090.90909090909"/>
 															</PropertyList>
-															<AudioSourceRef Name="MUSIC SHREK BONUS FIN" ID="{C87E788F-26B6-4691-955A-72622C6D9169}"/>
-															<PropertyCurveList>
-																<PropertyCurve PropertyName="Highpass">
-																	<Curve Name="" ID="{08EB46A7-937C-40DF-8652-A2AAA76010A8}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>1.09091</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>24.1237083333333</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Lowpass">
-																	<Curve Name="" ID="{F7BB044F-350F-4D44-AD7E-92DA35734010}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="1"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>1.09091</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>24.1237083333333</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-																<PropertyCurve PropertyName="Volume">
-																	<Curve Name="" ID="{F30C4FCA-7742-457F-8146-070CE125BC03}">
-																		<PropertyList>
-																			<Property Name="Flags" Type="int32" Value="3"/>
-																		</PropertyList>
-																		<PointList>
-																			<Point>
-																				<XPos>1.09091</XPos>
-																				<YPos>0</YPos>
-																				<Flags>5</Flags>
-																			</Point>
-																			<Point>
-																				<XPos>24.1237083333333</XPos>
-																				<YPos>0</YPos>
-																				<Flags>37</Flags>
-																			</Point>
-																		</PointList>
-																	</Curve>
-																</PropertyCurve>
-															</PropertyCurveList>
+															<AudioSourceRef Name="ENDING MUSIC 110 BPM" ID="{2DB1E0B2-6AFB-4FCE-A493-694CBCB0F0B1}"/>
 														</MusicClip>
 													</ClipList>
 												</MusicTrackSequence>
