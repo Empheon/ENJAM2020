@@ -30,8 +30,8 @@ public class WwiseMusicManager : MonoBehaviour
 
     public void StartMainMusic()
     {
+        AkSoundEngine.SetState("STATES_MainMusic", "CoreGame_110BPM");
         Play_MainMusic.Post(gameObject, (uint)AkCallbackType.AK_MusicSyncAll, CallbackFunction);
-        AkSoundEngine.SetState("STATES_MainMusic", "MainMenu");
     }
 
     private void CallbackFunction(object in_cookie, AkCallbackType in_type, object in_info)
