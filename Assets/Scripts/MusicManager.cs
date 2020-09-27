@@ -25,6 +25,9 @@ public class MusicManager : MonoBehaviour
     public AudioClip beat_tmp;
 
     private float m_prevBeatTime;
+    private bool m_acceptBeat = true;
+
+    private int m_cueCounter = 10;
 
     void Start()
     {
@@ -77,6 +80,38 @@ public class MusicManager : MonoBehaviour
 
     public void MusicBeat(object sender, EventArgs e)
     {
+        m_cueCounter++;
+        if (m_cueCounter < 2)
+        {
+            return;
+        }
+        Debug.Log(m_currentBeat);
+        string musicKey;
+        if (m_musicData.BeatUpdate.TryGetValue(m_currentBeat - 1, out musicKey))
+        {
+            AkSoundEngine.SetState("STATES_MainMusic", musicKey);
+            m_acceptBeat = !musicKey.Contains("Transition");
+        }
+
+        UpdateBeat();
+    }
+
+    public void MusicCue(object sender, EventArgs e)
+    {
+        m_cueCounter = 0;
+        m_acceptBeat = false;
+        string musicKey;
+        if (m_musicData.BeatUpdate.TryGetValue(m_currentBeat - 1, out musicKey))
+        {
+            AkSoundEngine.SetState("STATES_MainMusic", musicKey);
+            m_acceptBeat = !musicKey.Contains("Transition");
+        }
+        UpdateBeat();
+        Debug.Log("On cue");
+    }
+
+    private void UpdateBeat()
+    {
         if (m_prevBeatTime < 0)
         {
             m_prevBeatTime = Time.time;
@@ -84,6 +119,11 @@ public class MusicManager : MonoBehaviour
         }
         BeatDuration = Time.time - m_prevBeatTime;
         m_prevBeatTime = Time.time;
+
+        if (1 / BeatDuration > 3f)
+        {
+            BeatDuration = 2.02877f;
+        }
 
         Speed = 1 / BeatDuration;
         Token.Speed = Speed;
@@ -102,10 +142,7 @@ public class MusicManager : MonoBehaviour
             OnActivateCombination?.Invoke(bc, BeatDuration);
             GizmosHelper.AddBox(Vector3.zero, Vector3.one * 5, Color.red, BeatDuration / 2f);
         }
-    }
 
-    public void MusicCue(object sender, EventArgs e)
-    {
-        Debug.Log("On cue");
+
     }
 }

@@ -5,9 +5,11 @@ using YorfLib;
 public class MusicData : MonoBehaviour
 {
     public Dictionary<int, List<ButtonType>> Inputs = new Dictionary<int, List<ButtonType>>();
-    public Dictionary<int, float> BeatUpdate = new Dictionary<int, float>();
+    public Dictionary<int, string> BeatUpdate = new Dictionary<int, string>();
 
     public Dictionary<int, BeatCombination> BeatDict;
+
+    public int FinishBeat = 110;
 
     public void ParseData()
     {
@@ -49,6 +51,11 @@ public class MusicDataContainer
         }
 
 
+        //musicData.BeatUpdate.Add(80, "Transition_110_to_120");
+        //musicData.BeatUpdate.Add(80, "CoreGame_120BPM");
+        //musicData.BeatUpdate.Add(160, "Transition_120_to_130");
+        //musicData.BeatUpdate.Add(176, "CoreGame_130BPM");
+        musicData.BeatUpdate.Add(110, "Ending");
 
         musicData.ParseData();
         return musicData;
