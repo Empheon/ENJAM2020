@@ -14,7 +14,7 @@ public class UISceneManager : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-        //UnityEngine.Debug.Log("Quitted application");
+        UnityEngine.Debug.Log("Quitted application");
     }
     
 }
