@@ -59,29 +59,29 @@ public class Token : MonoBehaviour
             }
         }
 
-        bc.OnFailedAction += FailedAction;
-        bc.OnMissedAction += MissedAction;
-        bc.OnValidAction += ValidAction;
-        bc.OnPressFailedAction += FailedPressAction;
+        //bc.OnFailedAction += FailedAction;
+        //bc.OnMissedAction += MissedAction;
+        //bc.OnValidAction += ValidAction;
+        //bc.OnPressFailedAction += FailedPressAction;
     }
 
-    private void ValidAction()
+    public void ValidAction()
+    {
+        Get<ActionButton>().SuccessAnim();
+    }
+
+    public void FailedAction()
+    {
+        Get<ActionButton>().FailAnim();
+    }
+
+    public void MissedAction()
     {
 
     }
 
-    private void FailedAction()
+    public void FailedPressAction()
     {
-
-    }
-
-    private void MissedAction()
-    {
-
-    }
-
-    private void FailedPressAction()
-    {
-
+        Get<ActionButton>().FailAnim();
     }
 }
