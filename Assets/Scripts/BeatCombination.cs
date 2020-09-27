@@ -36,7 +36,7 @@ public class BeatCombination
         }
 
         // Init tokens
-        int i = 0;
+        int i = -1;
         foreach (var pair in m_beats)
         {
             if (pair.m_first != ButtonType.NONE)

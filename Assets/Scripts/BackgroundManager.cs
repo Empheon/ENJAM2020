@@ -24,7 +24,10 @@ public class BackgroundManager : MonoBehaviour
     private void Update()
     {
         Vector3 speed = Vector3.left * Get<MusicManager>().BeatDuration * Time.deltaTime * 4 * 10;
-        bg.transform.Translate(speed * 0.5f);
+        if (bg != null)
+        {
+            bg.transform.Translate(speed * 0.5f);
+        }
         fg.transform.Translate(speed);
     }
 }
