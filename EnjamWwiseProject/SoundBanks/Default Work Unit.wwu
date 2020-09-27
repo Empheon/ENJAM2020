@@ -4,7 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{375B0FD4-17CC-453F-814F-0FF506381EC6}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="EFFECTS_SNB" ID="{4AD3C050-48AB-4346-AC0B-5249D75DF09F}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="EFFECTS_EVENTS" ID="{8A82E2EB-FD34-46E2-A33A-1331FFEAE3A7}" WorkUnitID="{8A82E2EB-FD34-46E2-A33A-1331FFEAE3A7}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
