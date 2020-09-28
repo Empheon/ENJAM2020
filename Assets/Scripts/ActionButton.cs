@@ -16,7 +16,7 @@ public class ActionButton : MonoBehaviour
       
         m_animator = GetComponent<Animator>();
 
-        Get<MusicManager>().OnMusicBeat += CharacterAnim;
+        //Get<MusicManager>().OnMusicBeat += CharacterAnim;
     }
     
 
@@ -30,11 +30,11 @@ public class ActionButton : MonoBehaviour
         m_animator.SetTrigger("fail");
     }
 
-    private void CharacterAnim()
-    {
-        CharacterAnimator.SetTrigger("play");
-        float scaleY = CharacterAnimator.transform.localScale.y;
+    //private void CharacterAnim()
+    //{
+    //    CharacterAnimator.SetTrigger("play");
+    //    float scaleY = CharacterAnimator.transform.localScale.y;
 
-        CharacterAnimator.transform.DOScaleY(scaleY, 0.5f * 1.5f + 1).SetEase(Ease.InOutElastic);
-    }
+    //    CharacterAnimator.transform.DOScaleY(scaleY, 0.5f * 1.5f + 1).SetEase(Ease.InOutElastic);
+    //}
 }

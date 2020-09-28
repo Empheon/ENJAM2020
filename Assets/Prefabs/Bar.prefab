@@ -69,7 +69,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -20
+  m_SortingOrder: 301
   m_Sprite: {fileID: 21300000, guid: 0647b62486179d8409e50b0908838f4a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 0.46666667}
   m_FlipX: 0
@@ -120,11 +120,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2974401438228196474}
     m_Modifications:
+    - target: {fileID: 450829552, guid: 1897cc05a6fec0b44b088fe668c9fb29, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 450829553, guid: 1897cc05a6fec0b44b088fe668c9fb29, type: 3}
+      propertyPath: m_SortingOrder
+      value: -5
+      objectReference: {fileID: 0}
     - target: {fileID: 1264066566761733888, guid: 1897cc05a6fec0b44b088fe668c9fb29,
         type: 3}
       propertyPath: m_Name
       value: BgButtonAction
       objectReference: {fileID: 0}
+    - target: {fileID: 2414363249889621284, guid: 1897cc05a6fec0b44b088fe668c9fb29,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 310
+      objectReference: {fileID: 0}
+    - target: {fileID: 6336084323165479229, guid: 1897cc05a6fec0b44b088fe668c9fb29,
+        type: 3}
+      propertyPath: CharacterAnimator
+      value: 
+      objectReference: {fileID: 6780405968112728599}
     - target: {fileID: 7018827710638923987, guid: 1897cc05a6fec0b44b088fe668c9fb29,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -185,6 +203,12 @@ PrefabInstance:
 --- !u!4 &4575434914989475382 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7018827710638923987, guid: 1897cc05a6fec0b44b088fe668c9fb29,
+    type: 3}
+  m_PrefabInstance: {fileID: 6780405968218040037}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &6780405968112728599 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 450829554, guid: 1897cc05a6fec0b44b088fe668c9fb29,
     type: 3}
   m_PrefabInstance: {fileID: 6780405968218040037}
   m_PrefabAsset: {fileID: 0}

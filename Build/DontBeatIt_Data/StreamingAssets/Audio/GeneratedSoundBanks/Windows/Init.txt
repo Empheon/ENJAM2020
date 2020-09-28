@@ -1,0 +1,18 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3351207106	STATES_MainMusic			\STATES_MUSIC\STATES_MainMusic	
+
+State	ID	Name	State Group			Notes
+	74257514	CoreGame_130BPM	STATES_MainMusic			
+	181369000	CoreGame_110BPM	STATES_MainMusic			
+	748895195	None	STATES_MainMusic			
+	3507987323	CoreGame_120BPM	STATES_MainMusic			
+	3604647259	MainMenu	STATES_MainMusic			
+	3966194980	Ending	STATES_MainMusic			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

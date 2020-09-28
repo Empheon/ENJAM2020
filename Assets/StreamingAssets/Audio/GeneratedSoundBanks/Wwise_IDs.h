@@ -50,6 +50,8 @@ namespace AK
                 static const AkUniqueID ENDING = 3966194980U;
                 static const AkUniqueID MAINMENU = 3604647259U;
                 static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID TRANSITION_110_TO_120 = 3290135791U;
+                static const AkUniqueID TRANSITION_120_TO_130 = 4031559303U;
             } // namespace STATE
         } // namespace STATES_MAINMUSIC
 

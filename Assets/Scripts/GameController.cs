@@ -12,6 +12,8 @@ public class GameController : MonoBehaviour
     public CombinationEndScreen SuccessScreen;
     public CombinationEndScreen FailScreen;
 
+    private float m_totalPoints = 0;
+    public bool hasFinished = false;
 
     void Start()
     {
@@ -64,11 +66,35 @@ public class GameController : MonoBehaviour
         {
             FailScreen.PlayAnim();
         }
+        m_totalPoints += points;
     }
 
     // oui c'est sale
     public T InstantiateDelegate<T>(T go, Vector3 pos, Quaternion q) where T : Object
     {
         return Instantiate(go, pos, q);
+    }
+
+    public void Loose()
+    {
+        hasFinished = true;
+        if (CurrentBeatCombination != null)
+        {
+            m_totalPoints += CurrentBeatCombination.ForceFinish();
+        }
+        Get<EndScreen>().AnimateEndScreen(true, Mathf.RoundToInt(m_totalPoints * 100) + "\n\nEssayez encore !");
+        Get<InputController>().gameObject.SetActive(false);
+    }
+
+    public void Win()
+    {
+        hasFinished = true;
+        if (CurrentBeatCombination != null)
+        {
+            m_totalPoints += CurrentBeatCombination.ForceFinish();
+        }
+        Get<EndScreen>().AnimateEndScreen(true, Mathf.RoundToInt(m_totalPoints * 100) + "\n\nBien joué !");
+        Get<InputController>().gameObject.SetActive(false);
+
     }
 }

@@ -11,6 +11,8 @@
 						<State Name="CoreGame_120BPM" ID="{89D0D757-7436-46CF-8711-A69D074D570F}"/>
 						<State Name="CoreGame_130BPM" ID="{785D4B91-EDF0-409A-9D91-DE965750A270}"/>
 						<State Name="Ending" ID="{218948BF-883E-4E32-84C7-F499ABA83EC9}"/>
+						<State Name="Transition_110_to_120" ID="{7180F63B-74A2-47F8-AB06-6C5474A8F3AF}"/>
+						<State Name="Transition_120_to_130" ID="{96CD9C76-5A6F-4270-BAAB-719784D9DAD0}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
